@@ -1,8 +1,10 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const hamburger = document.querySelector(".hamburger");
+    const bar = document.querySelector(".bar");
     const navLinks = document.querySelector(".nav-links");
 
-    hamburger.addEventListener("click", () => {
+    bar.addEventListener("click", () => {
         navLinks.classList.toggle("active");
     });
 });
+
+
