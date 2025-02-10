@@ -92,6 +92,21 @@ body {
         display: flex;
     }
 }
+.links{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+    align-content: center;
+    justify-content: center;
+    padding: 20px;
+    list-style: none;
+    font-size: 20px;
+    
+}
+.links a{
+    text-decoration: none;
+}
 .search-container {
     margin: 20px auto;
     width: 300px;
